@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/adlam_display</item>
+        <item>@font/figtree_black</item>
+        <item>@font/figtree_bold</item>
+        <item>@font/figtree_extrabold</item>
+        <item>@font/figtree_light</item>
+        <item>@font/figtree_medium</item>
+        <item>@font/figtree_semibold</item>
+    </array>
+</resources>
