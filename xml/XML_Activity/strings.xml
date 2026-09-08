@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ActivityDasbord</string>
+    <string name="homeTitle">Home</string>
+    <string name="activityTitle">Activity</string>
+    <string name="analyticsText">Analytics</string>
+    <string name="goalsText">Goals</string>
+    <string name="settingsText">Settings</string>
+</resources>
