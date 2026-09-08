@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FAF8F5"
-    tools:context=".GetStartedPage">
+    tools:context=".GetStartedFragment">
 
     <!-- Top Logo / Title -->
     <TextView
@@ -86,13 +86,14 @@
         android:layout_marginEnd="40dp"
         android:fontFamily="@font/figtree_medium"
         android:lineSpacingExtra="4dp"
-        android:text="Welcome to AERA, where Every Choice Counts. Every Footprint Matters."
+        android:text="@string/welcome_to_aera_where_every_choice_counts_every_footprint_matters"
         android:textAlignment="center"
         android:textColor="#7A8F82"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/titleText" />
+        app:layout_constraintTop_toBottomOf="@+id/titleText"
+        tools:ignore="TextContrastCheck" />
 
     <!-- Bottom Footer Text -->
     <TextView
@@ -101,7 +102,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
         android:fontFamily="@font/figtree_medium"
-        android:text="100% Secure &amp; Offline"
+        android:text="@string/_100_secure_amp_offline"
         android:textColor="#336647"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -118,7 +119,7 @@
         android:layout_marginBottom="24dp"
         android:backgroundTint="#336647"
         android:fontFamily="@font/figtree_bold"
-        android:text="Get Started"
+        android:text="@string/get_started"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
         android:textSize="18sp"

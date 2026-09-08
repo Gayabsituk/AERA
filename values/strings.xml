@@ -1,4 +1,5 @@
-<resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">AERA</string>
     <string name="welcome_Text">Breathe easy,</string>
     <string name="offline_Text">OFFLINE</string>
@@ -12,7 +13,6 @@
     <string name="kg_co2_today">KG CO2 TODAY</string>
     <string name="_13_39">13.39</string>
     <string name="hev_abi">Hev Abi</string>
-    <string name="food1">Food</string>
     <string name="foodDesc">Choose lower-impact foods and avoid wasting food whenever possible.</string>
     <string name="transport_category">Transport Category</string>
     <string name="energy_category">Energy Category</string>
@@ -37,5 +37,21 @@
     <string name="error_message">Error message</string>
     <string name="aera_landscape_illustration">AERA landscape illustration</string>
     <string name="breathe_easy">Breathe Easy</string>
+    <string name="todaysactivityText">Today\'s Activity</string>
+    <string name="defaultvalueText">0.0 kg CO2e</string>
+    <string name="extFootprintText">Estimated Footprint</string>
+    <string name="kgtext">kg</string>
+    <string name="amountText">Serving/Amount</string>
+    <string name="typeText">Type</string>
+    <string name="kwhText">kWh</string>
+    <string name="electricityusedText">Electricity Used</string>
+    <string name="descTex" tools:ignore="TypographyEllipsis">Calculate your total daily kWh by adding the energy used by all your appliances...</string>
+    <string name="passengerText">Number of Passengers</string>
+    <string name="add_new_activity">Add new activity</string>
+    <string name="add_activity">Add Activity</string>
+    <string name="_100_secure_amp_offline"><![CDATA[100% Secure & Offline]]></string>
+    <string name="get_started">Get Started</string>
+    <string name="welcome_to_aera_where_every_choice_counts_every_footprint_matters">Welcome to AERA, where Every Choice Counts. Every Footprint Matters.</string>
+    <string name="food1">Food</string>
     <string name="aera">AERA</string>
 </resources>
