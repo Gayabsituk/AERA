@@ -10,38 +10,18 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AERA">
+        android:theme="@style/Theme.AERA"> <!-- Make sure this matches your exact theme name -->
 
-        <!-- GetStartedPage is now the launcher (First screen to open) -->
+        <!-- This tells the phone to open Aera.java first! -->
         <activity
-            android:name=".GetStartedPage"
-            android:exported="true">
+            android:name=".Aera"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <!-- LoginPage opens after clicking Get Started -->
-        <activity
-            android:name=".LoginPage"
-            android:exported="false" />
-
-        <!-- HomePage opens after entering a name on LoginPage -->
-        <activity
-            android:name=".HomePage"
-            android:exported="false" />
-
-        <!-- MainActivity is a normal screen now -->
-        <activity
-            android:name=".MainActivity"
-            android:exported="false"
-            android:windowSoftInputMode="adjustResize" />
-
-        <!-- Metadata for your fonts -->
-        <meta-data
-            android:name="preloaded_fonts"
-            android:resource="@array/preloaded_fonts" />
 
     </application>
 
