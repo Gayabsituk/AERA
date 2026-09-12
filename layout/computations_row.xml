@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingVertical="6dp">
+
+    <TextView
+        android:id="@+id/rowName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.40"
+        android:fontFamily="@font/figtree_medium"
+        android:gravity="center"
+        android:lineSpacingExtra="2sp"
+        android:paddingHorizontal="4dp"
+        android:textAlignment="center"
+        android:textColor="#1A202C"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/rowFormula"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.60"
+        android:fontFamily="@font/figtree_medium"
+        android:gravity="center"
+        android:lineSpacingExtra="2sp"
+        android:paddingHorizontal="4dp"
+        android:textAlignment="center"
+        android:textColor="#3A443E"
+        android:textSize="13sp" />
+</LinearLayout>
