@@ -54,7 +54,7 @@
     <string name="welcome_to_aera_where_every_choice_counts_every_footprint_matters">Welcome to AERA, where Every Choice Counts. Every Footprint Matters.</string>
     <string name="food1">Food</string>
     <string name="aera">AERA</string>
-     <string name="local_storage_active">Local Storage Active</string>
+    <string name="local_storage_active">Local Storage Active</string>
     <string name="local_storage_desc">All data is encrypted and saved offline on your device.</string>
     <string name="profileTitle">Profile</string>
     <string name="about_aera_title">About AERA</string>
