@@ -54,4 +54,19 @@
     <string name="welcome_to_aera_where_every_choice_counts_every_footprint_matters">Welcome to AERA, where Every Choice Counts. Every Footprint Matters.</string>
     <string name="food1">Food</string>
     <string name="aera">AERA</string>
+     <string name="local_storage_active">Local Storage Active</string>
+    <string name="local_storage_desc">All data is encrypted and saved offline on your device.</string>
+    <string name="profileTitle">Profile</string>
+    <string name="about_aera_title">About AERA</string>
+    <string name="app_version_sub">App version 1.2.0</string>
+    <string name="computations_title">Computations</string>
+    <string name="computations_sub">Formula and Calculations</string>
+    <string name="computations_banner"><b>AERA</b> estimates your carbon footprint by multiplying your activity or consumption by its corresponding emission factor (EF). Your results are shown in kg CO₂e, allowing you to track and understand your environmental impact.</string>
+    <string name="computations_disclaimer_title">Disclaimer</string>
+    <string name="computations_disclaimer"><b>Note:</b> These results are estimates and may not be 100% accurate. Actual emissions may vary depending on individual activities, products, and conditions.</string>
+    <string name="computations_col_category">Category</string>
+    <string name="computations_col_formula">Formula</string>
+    <string name="transportation_title">Transportation</string>
+    <string name="electricity_title">Electricity</string>
+    <string name="back">Back</string>
 </resources>
